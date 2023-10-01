@@ -1,0 +1,10 @@
+<suite parallel="classes" name="suite">
+	<test thread-count="5" parallel="classes" name="Test">
+		<classes>
+			<class name="Test.Test_class" />
+			
+			<include name1="setup" name2="User_credentials" name3="UserProfile" name4="Test_Login"> </include>
+			<class />
+		</classes>
+	</test>
+</suite> 
